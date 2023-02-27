@@ -1,6 +1,6 @@
 {
-   "homepage": "https://rechkalov1.github.io/projectCv/",
   "name": "cv",
+  "homepage": "https://rechkalov1.github.io/projectCv/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
