@@ -1,5 +1,9 @@
- .cards{
- margin: 150px;
+ .thumb_cards{
+   position: absolute;
+   top:50%;
+   left:50%;
+   transform:translate(-50%, -50%);
+
     width: 380px;
     height: 460px;
     background: linear-gradient(114.99deg, #471CA9 -0.99%, #5736A3 54.28%, #4B2A99 78.99%);
@@ -11,7 +15,7 @@ padding: 0 36px;
 position: relative;
  
  }
- .vector{
+.logo{
    position: relative;
    left:20px;
    top:20px;
@@ -28,8 +32,8 @@ border-radius: 50%;
     
     
  }
- .faceDiv{position: relative;}
- .span{
+ .thumb_img{position: relative;}
+ .band_one{
    top:50%;
    left: 0;
    position: absolute;
@@ -37,7 +41,7 @@ border-radius: 50%;
    width: 154px;
    border :4px solid  #EBD8FF;
  }
- .span2{
+ .band_two{
    position: absolute;
    top:50%;
    right: 0;
@@ -45,7 +49,7 @@ border-radius: 50%;
    width: 154px;
    border :4px solid  #EBD8FF;
  }
- .info{
+ .description{
     display: flex;
     flex-direction:column;
     align-items: center;
@@ -72,7 +76,7 @@ text-transform: uppercase;
     background: #5CD3A8;
 box-shadow: 0px 3.43693px 3.43693px rgba(0, 0, 0, 0.25);
 }
- .txt{
+ .txt_info{
     font-family: 'Montserrat';
 font-style: normal;
 font-weight: 500;
